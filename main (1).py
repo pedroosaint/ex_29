@@ -4,5 +4,5 @@ while True:
         print("Idade:", idade)
     except ValueError:
         print("Digite uma idade valida!")
-        
+        continue
     break
